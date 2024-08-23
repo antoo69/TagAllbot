@@ -1,6 +1,7 @@
 from json import dump, load
 
 from telegram.constants import ParseMode
+from telegram import ParseMode
 from telegram import Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, Updater
